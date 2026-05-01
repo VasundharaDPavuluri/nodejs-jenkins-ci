@@ -2,8 +2,8 @@ pipeline {
     agent { label 'Slave_A' }
 
     environment {
-        IMAGE_NAME = "vasundharadp/micro_service"
-        CONTAINER_NAME = "micro_service_container"
+        IMAGE_NAME = "vasundharadp/app"
+        CONTAINER_NAME = "app_container"
     }
 
     stages {
