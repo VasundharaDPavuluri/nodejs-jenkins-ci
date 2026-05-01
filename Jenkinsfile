@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "vasundharadp/micro_service"
+        IMAGE_NAME = "vasundharadp/app"
         TAG = "${BUILD_NUMBER}"
     }
-
+ 
     stages {
 
         stage('Checkout') {
