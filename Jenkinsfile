@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "vasundharadp/app"
         TAG = "${BUILD_NUMBER}"
-    }
+    } 
  
     stages {
 
